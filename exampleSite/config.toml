@@ -2,7 +2,8 @@
 baseURL = "https://examplesite.com"
 languageCode = "en"
 title = "Hargo | Hugo Ecommerce Site"
-theme = "hargo"
+# The theme is not defined here to avoid conflict with netlify.toml. Source: https://discourse.gohugo.io/t/deploy-your-theme-to-netlify/15508
+#theme = "hargo"
 summaryLength = "20"
 paginate = 10
 disqusShortname = ""
